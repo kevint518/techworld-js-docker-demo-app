@@ -33,7 +33,7 @@ pipeline {
                 }
             }
         }
-        stage("deploy1") {
+        stage("deploy") {
             steps {
                 script {
                     gv.deployApp()
