@@ -30,6 +30,7 @@ pipeline {
             steps {
                 script {
                     gv.testApp()
+                    echo "hahaha, I am the king of the sea!"
                 }
             }
         }
@@ -37,6 +38,7 @@ pipeline {
             steps {
                 script {
                     gv.deployApp()
+                    echo "hahaha, I am the king of the sea!"
                 }
             }
         }
